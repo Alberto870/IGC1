@@ -1,0 +1,65 @@
+div{
+	
+	margin: auto;
+	width: 750px;
+	border-radius: 10px;
+}
+
+h1{
+	color: black;
+}
+p{
+	font-size:30px;
+}
+
+ label{
+	float:left;
+	display: inline-block;
+	margin-top:3px;
+	padding: 5px 8px;
+	width: 150px;
+}
+ input{
+	width: 220px;
+    padding: 5px 8px;
+    height: 20px;
+}
+
+ input{
+	border: 1px solid #aaa;
+	box-shadow: 0 0 3px #eee;
+	border-radius: 2px;
+	padding-right: 30px;
+	-moz-transition:padding .25s;
+	-webkit-transition:padding .25s;
+	-o-transition:padding .25s;
+	transition: padding .25s;
+}
+
+
+input,div:required{
+	background: #ECD7D7 url(imágenes/red_asterisk.png) no-repeat 98% center;
+}
+
+input:required:valid{
+	background: green url(images/valid.jpg) no-repeat 98% center;
+	box-shadow: 0 0 5px #5ed053;
+	border-color: #000;
+}
+
+input:focus:invalid{
+background: #D22F2F url(images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #CE2F34;
+	border-color: #9F162D;
+}
+
+.j{
+	font-family: Impact;
+	font-size: 36px;
+	font-style: cursive;
+	color: crimson ;
+	text-align: center;
+}
+
+
+

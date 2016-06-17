@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+   <meta charset="utf-8">
+	<title>Formulario</title>
+    <link rel="stylesheet" type="text/css" Href="css/stylos.css>
+  <script type="text/javascript" Src="javascript/funciones.js" ></script>
+
+</head>
+
+
+<body background="http://www.citapreviainem.es/wp-content/uploads/2014/01/fondo-gris.jpg">
+<center>
+  <form action="Pagina2.php" method="post">
+
+     <h1 class="j"> ¡Conozca su IGC!</h1>
+     <br><br>
+
+      <center><h1>Ingrese sus datos</h1></center>
+       
+
+      
+           Nombre: <input type="text" placeholder="Nombre" name="Nombre" required><br><br>
+           Edad: <input type="number" name="Edad" placeholder="Edad" required ><br><br>
+
+           <p>Selecciona tu género:</p>
+       
+            <input name="Sexo" type="radio" value="femenino"checked="checked" onclick="mostrar()" >Femenino
+            <input name="Sexo" type="radio" value="masculino" onclick="ocultar()" >Masculino
+            <br><br>   
+            
+      <center><h1>Ingrese sus medidas</h1></center>
+
+
+      
+
+          Peso (kg): <input type="number" name="Peso" placeholder="Peso" required> 
+          <br><br>
+          Cuello (cm): <input type="number" name="Cuello" placeholder="Medida de cuello" required>
+          <br><br>
+          Cintura(cm): <input type="number" name="Cintura" placeholder="Medida de cintura"  required>
+          <br><br>
+          Estatura (cm): <input type="number" name="Estatura" placeholder="Medida de estatura" required>
+          <br><br>
+
+          <div id="oculto" style="display:block;">
+             Cadera (cm): <input type="number" name="Cadera" placeholder="Medida de cadera">
+             <br><br>
+          </div> 
+
+        <br><br>
+
+         <input type="submit" name="boton_env" value="Calcular" id="calcular">
+</center>
+
+      
+      
+  </form>
+ </body>
+</html>
